@@ -1,0 +1,927 @@
+.message {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .message .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .message .overlap {
+    position: absolute;
+    width: 1079px;
+    height: 1326px;
+    top: 0;
+    left: 361px;
+  }
+  
+  .message .right-page {
+    position: absolute;
+    width: 481px;
+    height: 1024px;
+    top: 0;
+    left: 598px;
+    background-color: #f0f6ff;
+  }
+  
+  .message .group {
+    position: relative;
+    width: 322px;
+    height: 200px;
+    top: 412px;
+    left: 82px;
+  }
+  
+  .message .text-wrapper {
+    position: absolute;
+    width: 318px;
+    top: 61px;
+    left: 0;
+    font-family: "Inter-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 19px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .new-message-button {
+    position: absolute;
+    width: 224px;
+    height: 59px;
+    top: 142px;
+    left: 48px;
+  }
+  
+  .message .overlap-group {
+    position: relative;
+    width: 222px;
+    height: 59px;
+    background-color: #255dd4;
+    border-radius: 93px;
+  }
+  
+  .message .text-wrapper-3 {
+    position: absolute;
+    top: 17px;
+    left: 42px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .chats {
+    position: absolute;
+    width: 597px;
+    height: 1171px;
+    top: 155px;
+    left: 0;
+    overflow-y: scroll;
+  }
+  
+  .message .centre-page {
+    position: relative;
+    width: 598px;
+    height: 1402px;
+    top: 10px;
+  }
+  
+  .message .overlap-2 {
+    position: absolute;
+    width: 603px;
+    height: 1295px;
+    top: 0;
+    left: 0;
+  }
+  
+  .message .background {
+    position: absolute;
+    width: 594px;
+    height: 1262px;
+    top: 0;
+    left: 4px;
+    background-color: #ffffff;
+  }
+  
+  .message .element-chat {
+    position: absolute;
+    width: 600px;
+    height: 107px;
+    top: 223px;
+    left: 2px;
+  }
+  
+  .message .overlap-group-2 {
+    position: relative;
+    width: 594px;
+    height: 107px;
+    background-color: #ffffff;
+  }
+  
+  .message .img {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 20px;
+    left: 21px;
+  }
+  
+  .message .text-wrapper-4 {
+    position: absolute;
+    top: 32px;
+    left: 98px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .text-wrapper-5 {
+    position: absolute;
+    top: 56px;
+    left: 99px;
+    font-family: "Inter-ExtraBold Italic", Helvetica;
+    font-weight: 800;
+    font-style: italic;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .text-wrapper-6 {
+    top: 22px;
+    left: 464px;
+    position: absolute;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .menu-more-horizontal {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 19px;
+    left: 552px;
+  }
+  
+  .message .element-st-chat {
+    top: 330px;
+    left: 1px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .overlap-3 {
+    position: relative;
+    width: 595px;
+    height: 107px;
+    background-color: #ffffff;
+  }
+  
+  .message .text-wrapper-7 {
+    top: 22px;
+    left: 463px;
+    position: absolute;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .overlap-wrapper {
+    top: 438px;
+    left: 1px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .text-wrapper-8 {
+    position: absolute;
+    top: 56px;
+    left: 99px;
+    font-family: "Inter-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .menu-more-horizontal-2 {
+    top: 20px;
+    left: 552px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .message .overlap-group-wrapper {
+    top: 545px;
+    left: 1px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .mask-group {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: 18px;
+    left: 21px;
+  }
+  
+  .message .text-wrapper-9 {
+    top: 30px;
+    position: absolute;
+    left: 98px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .text-wrapper-10 {
+    position: absolute;
+    top: 54px;
+    left: 99px;
+    font-family: "Inter-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .div-wrapper {
+    top: 652px;
+    left: 1px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .menu-more-horizontal-3 {
+    top: 19px;
+    left: 553px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .message .element-chat-2 {
+    top: 9px;
+    left: 2px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .element-chat-3 {
+    top: 116px;
+    left: 0;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .smile-emoji {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 53px;
+    left: 240px;
+    object-fit: cover;
+  }
+  
+  .message .element-chat-4 {
+    top: 759px;
+    left: 1px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .element-chat-5 {
+    top: 866px;
+    left: 2px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .element-chat-6 {
+    top: 973px;
+    left: 2px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .element-chat-7 {
+    top: 1080px;
+    left: 2px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .overlap-group-3 {
+    position: absolute;
+    width: 24px;
+    height: 25px;
+    top: 19px;
+    left: 552px;
+  }
+  
+  .message .menu-more-horizontal-4 {
+    top: 1px;
+    left: 0;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .message .menu-more-horizontal-5 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .message .element-chat-8 {
+    top: 1188px;
+    left: 2px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .text-wrapper-11 {
+    top: 39px;
+    left: 464px;
+    position: absolute;
+    font-family: "Inter-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .element-chat-9 {
+    top: 1295px;
+    left: 2px;
+    position: absolute;
+    width: 601px;
+    height: 107px;
+  }
+  
+  .message .message-top-bar {
+    position: absolute;
+    width: 600px;
+    height: 165px;
+    top: 0;
+    left: 0;
+  }
+  
+  .message .overlap-4 {
+    position: relative;
+    width: 598px;
+    height: 165px;
+    background-color: #f0f6ff;
+  }
+  
+  .message .text-wrapper-12 {
+    position: absolute;
+    top: 34px;
+    left: 20px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .search {
+    position: absolute;
+    width: 556px;
+    height: 47px;
+    top: 84px;
+    left: 23px;
+  }
+  
+  .message .overlap-group-4 {
+    position: relative;
+    width: 554px;
+    height: 47px;
+    background-color: #ffffff;
+    border-radius: 43px;
+  }
+  
+  .message .search-icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 14px;
+    left: 12px;
+  }
+  
+  .message .search-direct {
+    position: absolute;
+    top: 9px;
+    left: 42px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6b6868;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .message .new-chat-icon {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 41px;
+    left: 536px;
+  }
+  
+  .message .settings-icon {
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    top: 41px;
+    left: 497px;
+  }
+  
+  .message .left-page {
+    position: absolute;
+    width: 357px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .message .home {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    top: 133px;
+    left: 30px;
+  }
+  
+  .message .overlap-group-5 {
+    position: relative;
+    width: 316px;
+    height: 68px;
+    border-radius: 12px;
+  }
+  
+  .message .rectangle {
+    position: absolute;
+    width: 316px;
+    height: 68px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .text-wrapper-13 {
+    top: 25px;
+    left: 61px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .home-icon {
+    position: absolute;
+    width: 32px;
+    height: 36px;
+    top: 11px;
+    left: 16px;
+    background-color: #ffffff;
+    border-radius: 3px;
+  }
+  
+  .message .vector {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .message .messege {
+    position: absolute;
+    width: 311px;
+    height: 68px;
+    top: 300px;
+    left: 30px;
+  }
+  
+  .message .overlap-5 {
+    position: relative;
+    width: 309px;
+    height: 68px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px 2px #0000001a;
+  }
+  
+  .message .overlap-6 {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 11px;
+    left: 13px;
+    border-radius: 12px;
+  }
+  
+  .message .vector-wrapper {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .vector-2 {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 3px;
+    left: 4px;
+  }
+  
+  .message .no-of-notification {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    top: 7px;
+    left: 26px;
+  }
+  
+  .message .overlap-group-6 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: #166cfc;
+    border-radius: 7.91px;
+  }
+  
+  .message .text-wrapper-14 {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .text-wrapper-15 {
+    position: absolute;
+    top: 21px;
+    left: 71px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #255dd4;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .indicator {
+    position: absolute;
+    width: 10px;
+    height: 44px;
+    top: 12px;
+    left: 0;
+    background-color: #255dd4;
+    border-radius: 2px 4px 4px 2px;
+  }
+  
+  .message .notification {
+    position: absolute;
+    width: 311px;
+    height: 68px;
+    top: 220px;
+    left: 30px;
+  }
+  
+  .message .overlap-7 {
+    position: relative;
+    width: 309px;
+    height: 68px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .vector-3 {
+    position: absolute;
+    width: 34px;
+    height: 39px;
+    top: 3px;
+    left: 6px;
+  }
+  
+  .message .text-wrapper-16 {
+    position: absolute;
+    top: 20px;
+    left: 71px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .overlap-8 {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    top: 380px;
+    left: 30px;
+  }
+  
+  .message .category {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    top: 0;
+    left: 0;
+  }
+  
+  .message .overlap-9 {
+    position: relative;
+    width: 316px;
+    height: 68px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .text-wrapper-17 {
+    position: absolute;
+    width: 101px;
+    top: 21px;
+    left: 71px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .iconly-light-wrapper {
+    position: absolute;
+    width: 45px;
+    height: 46px;
+    top: 9px;
+    left: 13px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .iconly-light {
+    position: absolute;
+    width: 36px;
+    height: 37px;
+    top: 4px;
+    left: 4px;
+  }
+  
+  .message .profile {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    top: 460px;
+    left: 30px;
+  }
+  
+  .message .profile-icon {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 11px;
+    left: 13px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .vector-4 {
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    top: 4px;
+    left: 3px;
+  }
+  
+  .message .text-wrapper-18 {
+    position: absolute;
+    width: 70px;
+    top: 21px;
+    left: 71px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .settings {
+    position: absolute;
+    width: 318px;
+    height: 69px;
+    top: 539px;
+    left: 30px;
+  }
+  
+  .message .overlap-10 {
+    position: relative;
+    width: 316px;
+    height: 69px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .img-wrapper {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 12px;
+    left: 13px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .vector-5 {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    top: 5px;
+    left: 3px;
+  }
+  
+  .message .text-wrapper-19 {
+    position: absolute;
+    width: 90px;
+    top: 22px;
+    left: 71px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .logo {
+    position: absolute;
+    width: 134px;
+    height: 56px;
+    top: 20px;
+    left: 42px;
+  }
+  
+  .message .profile-with-details {
+    position: absolute;
+    width: 316px;
+    height: 78px;
+    top: 634px;
+    left: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .message .menu-icon {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 20px;
+    left: 270px;
+  }
+  
+  .message .menu-icon-2 {
+    position: relative;
+    height: 46px;
+    background-color: #ffffff;
+  }
+  
+  .message .vector-6 {
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    top: 20px;
+    left: 12px;
+  }
+  
+  .message .username-email {
+    position: absolute;
+    width: 146px;
+    height: 38px;
+    top: 21px;
+    left: 80px;
+  }
+  
+  .message .text-wrapper-20 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .message .text-wrapper-21 {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .message .mask-group-2 {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 12px;
+    left: 17px;
+  }
+  
